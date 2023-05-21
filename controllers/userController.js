@@ -1,6 +1,7 @@
 import fast2sms from 'fast-two-sms'
 import otpGenerator from 'otp-generator'
 import asyncHandler from 'express-async-handler'
+import User from '../models/userModel.js'
 
 
 const otpStorage = {};
@@ -30,7 +31,7 @@ const login = asyncHandler(async (req, res) => {
   });
   
   // API endpoint to verify the OTP and log in the user
-  const verifyOtp = asyncHandler(async (req, res) => {
+const verifyOtp = asyncHandler(async (req, res) => {
     const { phoneNumber, otp } = req.body;
   
     // Retrieve the OTP from temporary storage
@@ -38,19 +39,25 @@ const login = asyncHandler(async (req, res) => {
   
     // Check if the provided OTP matches the stored OTP
     if (otp === storedOTP) {
-      // OTP verification successful, log in the user
-      // You can generate a JWT token here or create a user session
+      let user = await User.findOne({ phoneNumber });
+  
+      // If user doesn't exist, create a new user
+      if (!user) {
+        user = await User.create({ phoneNumber });
+      }
   
       // Clear the OTP from temporary storage
       delete otpStorage[phoneNumber];
   
-      // Return a success response
-      res.json({ success: true, message: 'OTP verified successfully.' });
+      // Perform login actions if needed (e.g., generate JWT token, create user session)
+  
+      // Return a success response with the user details
+      res.json({ success: true, message: 'OTP verified successfully.', user });
     } else {
       // Invalid OTP
       res.json({ success: false, message: 'Invalid OTP.' });
     }
-  });
+});
 
   export {
     login,
