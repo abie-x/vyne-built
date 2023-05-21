@@ -25,7 +25,7 @@ const restaurants = [
           {
             "item_name": "Chicken Biryani",
             "item_description": "Aromatic rice dish with tender chicken pieces",
-            "item_image": "https://static.toiimg.com/thumb/54308405.cms?width=1200&height=900",
+            "item_image": "https://images.pexels.com/photos/12737656/pexels-photo-12737656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "item_price": 200,
             "vegetarian": false,
             "spicy": true,
@@ -38,7 +38,7 @@ const restaurants = [
           {
             "item_name": "Veg Fried Rice",
             "item_description": "Mixed vegetables stir-fried with rice",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://images.pexels.com/photos/5638541/pexels-photo-5638541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "item_price": 150,
             "vegetarian": true,
             "spicy": false,
@@ -51,7 +51,7 @@ const restaurants = [
           {
             "item_name": "Paneer Tikka",
             "item_description": "Grilled cottage cheese with a blend of spices",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://images.pexels.com/photos/15529782/pexels-photo-15529782/free-photo-of-fried-food-with-dips.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "item_price": 180,
             "vegetarian": true,
             "spicy": true,
@@ -64,7 +64,7 @@ const restaurants = [
           {
             "item_name": "Chicken 65",
             "item_description": "Spicy deep-fried chicken appetizer",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://myfoodstory.com/wp-content/uploads/2021/05/Chicken-65-Spicy-Crispy-3.jpg",
             "item_price": 220,
             "vegetarian": false,
             "spicy": true,
@@ -77,7 +77,7 @@ const restaurants = [
           {
             "item_name": "Prawn Curry",
             "item_description": "Delicious prawn curry cooked in traditional spices",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://khinskitchen.com/wp-content/uploads/2022/04/Thai-red-curry-prawn-11.jpg",
             "item_price": 250,
             "vegetarian": false,
             "spicy": true,
@@ -90,7 +90,7 @@ const restaurants = [
           {
             "item_name": "Butter Naan",
             "item_description": "Soft and buttery Indian bread",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://vishalexpress.in/wp-content/uploads/2021/11/Butter-Naan-Cropped.jpg",
             "item_price": 80,
             "vegetarian": true,
             "spicy": false,
@@ -103,7 +103,7 @@ const restaurants = [
           {
             "item_name": "Gulab Jamun",
             "item_description": "Deep-fried milk balls soaked in sugar syrup",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://www.spiceupthecurry.com/wp-content/uploads/2020/08/gulab-jamun-recipe-2-500x500.jpg",
             "item_price": 120,
             "vegetarian": true,
             "spicy": false,
@@ -116,7 +116,7 @@ const restaurants = [
           {
             "item_name": "Mango Lassi",
             "item_description": "Refreshing mango-flavored yogurt drink",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://sixhungryfeet.com/wp-content/uploads/2022/07/Vegan-Mango-Lassi-7.jpg",
             "item_price": 100,
             "vegetarian": true,
             "spicy": false,
@@ -129,7 +129,7 @@ const restaurants = [
           {
             "item_name": "Masala Dosa",
             "item_description": "Crispy rice and lentil crepe filled with potato masala",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__1200_0_0_0_auto.jpg",
             "item_price": 150,
             "vegetarian": true,
             "spicy": true,
@@ -142,7 +142,7 @@ const restaurants = [
           {
             "item_name": "Chicken Noodles",
             "item_description": "Stir-fried noodles with chicken and vegetables",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://www.yummytummyaarthi.com/wp-content/uploads/2017/03/1-15-500x375.jpeg",
             "item_price": 180,
             "vegetarian": false,
             "spicy": true,
@@ -155,7 +155,7 @@ const restaurants = [
           {
             "item_name": "Fish Curry",
             "item_description": "Authentic fish curry cooked in a special blend of spices",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://geekrobocook.com/wp-content/uploads/2021/03/76_Masala-Fish-Curry.jpg",
             "item_price": 220,
             "vegetarian": false,
             "spicy": true,
@@ -168,7 +168,7 @@ const restaurants = [
           {
             "item_name": "Vegetable Pulao",
             "item_description": "Fragrant rice dish cooked with mixed vegetables",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://www.indianveggiedelight.com/wp-content/uploads/2019/07/veg-pulao-featured.jpg",
             "item_price": 160,
             "vegetarian": true,
             "spicy": false,
@@ -181,7 +181,7 @@ const restaurants = [
           {
             "item_name": "Mutton Biryani",
             "item_description": "Flavorful rice dish with tender mutton pieces",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://i.ytimg.com/vi/s4YsKuoYTe8/maxresdefault.jpg",
             "item_price": 250,
             "vegetarian": false,
             "spicy": true,
@@ -194,7 +194,7 @@ const restaurants = [
           {
             "item_name": "Palak Paneer",
             "item_description": "Creamy spinach curry with cottage cheese",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://www.whiskaffair.com/wp-content/uploads/2019/06/Palak-Paneer-1-3.jpg",
             "item_price": 180,
             "vegetarian": true,
             "spicy": false,
@@ -207,7 +207,7 @@ const restaurants = [
           {
             "item_name": "Veg Spring Rolls",
             "item_description": "Crispy fried rolls filled with mixed vegetables",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://www.thecookingcollective.com.au/wp-content/uploads/2022/08/Vegetable-Spring-Rolls-2-1.jpg",
             "item_price": 120,
             "vegetarian": true,
             "spicy": false,
@@ -220,7 +220,7 @@ const restaurants = [
           {
             "item_name": "Chicken Tikka Masala",
             "item_description": "Grilled chicken in a rich tomato-based curry",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chicken-tikka-masala-for-the-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
             "item_price": 230,
             "vegetarian": false,
             "spicy": true,
@@ -233,7 +233,7 @@ const restaurants = [
           {
             "item_name": "Cheese Burst Pizza",
             "item_description": "Delicious pizza with a cheese-filled crust",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://www.sanjeevkapoor.com/UploadFiles/RecipeImages/Double-Cheese-Burst-Pizza---SK-Khazana.jpg",
             "item_price": 200,
             "vegetarian": true,
             "spicy": false,
@@ -246,7 +246,7 @@ const restaurants = [
           {
             "item_name": "Paneer Butter Masala",
             "item_description": "Creamy tomato-based curry with paneer cubes",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg",
             "item_price": 190,
             "vegetarian": true,
             "spicy": false,
@@ -257,22 +257,9 @@ const restaurants = [
             "remaining": 16
           },
           {
-            "item_name": "Chicken Biryani",
-            "item_description": "Fragrant rice dish with succulent chicken pieces",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
-            "item_price": 240,
-            "vegetarian": false,
-            "spicy": true,
-            "allergens": [],
-            "calorie": 480,
-            "category": "Main Course",
-            "cheffSpecial": false,
-            "remaining": 18
-          },
-          {
             "item_name": "Mixed Fruit Salad",
             "item_description": "Assortment of fresh fruits with a tangy dressing",
-            "item_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLfjxIO7_M97kMOkSZwOsljR0iN5BM64Jb4O_-svJiuQ&usqp=CAU&ec=48665699",
+            "item_image": "https://www.tomatoblues.com/wp-content/uploads/2016/04/4-DSC_0157-490x740-1-490x500.jpg",
             "item_price": 140,
             "vegetarian": true,
             "spicy": false,
@@ -281,7 +268,124 @@ const restaurants = [
             "category": "Salads",
             "cheffSpecial": false,
             "remaining": 20
-          }
+          },
+          {
+            "item_name": "Mushroom Tikka",
+            "item_description": "Grilled marinated mushrooms with spices",
+            "item_image": "https://pipingpotcurry.com/wp-content/uploads/2022/10/Tandoori-Mushroom-Tikka-Air-Fryer-indian-recipe-Piping-Pot-Curry.jpg",
+            "item_price": 160,
+            "vegetarian": true,
+            "spicy": true,
+            "allergens": [],
+            "calorie": 200,
+            "category": "Starters",
+            "cheffSpecial": false,
+            "remaining": 15
+            },
+            {
+            "item_name": "Shrimp Scampi",
+            "item_description": "Sauteed shrimp in garlic and butter sauce",
+            "item_image": "https://recipes.net/wp-content/uploads/2021/09/shrimp-scampi-olive-garden-recipe-copycat.jpg",
+            "item_price": 220,
+            "vegetarian": false,
+            "spicy": false,
+            "allergens": [],
+            "calorie": 320,
+            "category": "Seafood",
+            "cheffSpecial": true,
+            "remaining": 12
+            },           
+            {
+            "item_name": "Vegetable Biryani",
+            "item_description": "Flavorful rice dish with mixed vegetables",
+            "item_image": "https://images.pexels.com/photos/16872037/pexels-photo-16872037/free-photo-of-fried-rice.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "item_price": 180,
+            "vegetarian": true,
+            "spicy": true,
+            "allergens": [],
+            "calorie": 400,
+            "category": "Main Course",
+            "cheffSpecial": false,
+            "remaining": 20
+            },            
+            {
+            "item_name": "Chole Bhature",
+            "item_description": "Deep-fried bread served with spicy chickpea curry",
+            "item_image": "https://media.vogue.in/wp-content/uploads/2020/08/chole-bhature-recipe.jpg",
+            "item_price": 150,
+            "vegetarian": true,
+            "spicy": true,
+            "allergens": ["Gluten"],
+            "calorie": 450,
+            "category": "Breakfast",
+            "cheffSpecial": false,
+            "remaining": 18
+            },            
+            {
+            "item_name": "Tandoori Fish Tikka",
+            "item_description": "Grilled marinated fish cubes with spices",
+            "item_image": "https://example.com/tandoori_fish_tikka.jpg",
+            "item_price": 250,
+            "vegetarian": false,
+            "spicy": true,
+            "allergens": [],
+            "calorie": 280,
+            "category": "Starters",
+            "cheffSpecial": false,
+            "remaining": 14
+            },            
+            {
+            "item_name": "Lemon Rice",
+            "item_description": "Tangy and aromatic rice dish with lemon flavor",
+            "item_image": "https://static.toiimg.com/thumb/53870704.cms?width=1200&height=900",
+            "item_price": 120,
+            "vegetarian": true,
+            "spicy": false,
+            "allergens": [],
+            "calorie": 300,
+            "category": "Rice Dishes",
+            "cheffSpecial": true,
+            "remaining": 10
+            },            
+            {
+            "item_name": "Chicken Shawarma",
+            "item_description": "Grilled chicken wrapped in a flatbread with garlic sauce",
+            "item_image": "https://falasteenifoodie.com/wp-content/uploads/2022/11/Authentic-Middle-Eastern-Chicken-Shawarma.jpg",
+            "item_price": 200,
+            "vegetarian": false,
+            "spicy": false,
+            "allergens": ["Gluten"],
+            "calorie": 350,
+            "category": "Sandwiches",
+            "cheffSpecial": false,
+            "remaining": 15
+            },                      
+            {
+            "item_name": "Veg Manchurian",
+            "item_description": "Deep-fried vegetable balls in tangy sauce",
+            "item_image": "https://www.yummytummyaarthi.com/wp-content/uploads/2015/11/1-9.jpg",
+            "item_price": 160,
+            "vegetarian": true,
+            "spicy": true,
+            "allergens": [],
+            "calorie": 250,
+            "category": "Appetizers",
+            "cheffSpecial": false,
+            "remaining": 16
+            },                        
+            {
+            "item_name": "Pineapple Fried Rice",
+            "item_description": "Stir-fried rice with pineapple and vegetables",
+            "item_image": "https://i1.wp.com/photos.smugmug.com/Pineapple-Fried-Rice/i-JBqsKS9/0/7a5d4019/L/Pineapple%20Fried%20Rice%2010-L.jpg?w=1170&ssl=1",
+            "item_price": 160,
+            "vegetarian": true,
+            "spicy": false,
+            "allergens": [],
+            "calorie": 400,
+            "category": "Rice Dishes",
+            "cheffSpecial": true,
+            "remaining": 10
+            }
         ]
     }
 ]
