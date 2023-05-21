@@ -10,7 +10,19 @@ const login = asyncHandler(async (req, res) => {
     const { phoneNumber } = req.body;
   
     // Generate OTP
-    const otp = otpGenerator.generate(6, { digits: true, alphabets: false, upperCase: false, specialChars: false });
+    // const otp = otpGenerator.generate(6, { digits: true, alphabets: false, upperCase: false, specialChars: false });
+    function generateOTP(length) {
+      const digits = '0123456789';
+      let otp = '';
+    
+      for (let i = 0; i < length; i++) {
+        otp += digits[Math.floor(Math.random() * digits.length)];
+      }
+    
+      return otp;
+    }
+    
+    const otp = generateOTP(6); 
   
     console.log(otp)
 
@@ -18,7 +30,7 @@ const login = asyncHandler(async (req, res) => {
     otpStorage[phoneNumber] = otp;
   
     // Send the OTP to the user's phone number using Fast2SMS
-    const message = `Your OTP for login is: ${otp}`;
+    const message = `Your OTP for login to Vyne is: ${otp}`;
     const response = await fast2sms.sendMessage({ authorization: process.env.AUTHORIZATION_KEY, message, numbers: [phoneNumber] });
 
     if (response.return === true) {
